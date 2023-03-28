@@ -426,3 +426,4 @@ Initial commit.
 [v0.0.3]: https://github.com/farmOS/farmOS-map/compare/v0.0.2...v0.0.3
 [v0.0.2]: https://github.com/farmOS/farmOS-map/compare/v0.0.1...v0.0.2
 [v0.0.1]: https://github.com/farmOS/farmOS-map/commit/14bf276
+=======
