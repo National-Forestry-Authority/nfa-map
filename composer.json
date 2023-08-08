@@ -1,6 +1,6 @@
 {
   "name": "national-forestry-authority/nfa-map",
   "description": "Fork of farmOS/farmOS-map for NFA websites",
-  "type": "drupal-theme",
+  "type": "drupal-library",
   "license": "GPL-2.0-or-later"
 }
