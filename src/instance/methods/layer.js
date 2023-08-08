@@ -256,7 +256,7 @@ export default function addLayer(type, opts = {}) {
       let group;
       group = this.getLayerByName(opts.group);
       if (!group) {
-        group = new LayerGroup({ title: opts.group });
+        group = new LayerGroup({ title: opts.group, combine: opts.combine });
         this.map.addLayer(group);
       }
 
