@@ -8,8 +8,9 @@ import Text from 'ol/style/Text';
 // Colors are listed in README.md documentation, keep these in sync.
 const colors = {
   blue: 'rgba(51,153,255,1)',
+  lightgreen: 'rgb(170,255,0,1)',
   green: 'rgba(51,153,51,1)',
-  darkgreen: 'rgba(51,153,51,1)',
+  darkgreen: 'rgb(34,85,51,1)',
   grey: 'rgba(204,204,204,0.7)',
   orange: 'rgba(255,153,51,1)',
   red: 'rgba(204,0,0,1)',
