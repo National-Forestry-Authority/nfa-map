@@ -269,6 +269,21 @@ const colors = {
 };
 ```
 
+Custom colors in hex or rgba can be used by providing a `color` option with the
+desired color value. rgb, rgba, and hex values with or without alpha channel are all supported.
+
+For example:
+```js
+// Add a GeoJSON layer with a custom  inside a layer group called "Assets"
+const opts = {
+  title: 'Animals',
+  url: '/farm/assets/geojson/animal/full',
+  color: '#FF0000',
+  group: 'Assets',
+};
+const layer = myMap.addLayer('geojson', opts);
+```
+
 For more complex styles, the `styleFunction` option allows styles to be
 defined based on a `feature` and `resolution`
 ([StyleFunction docs.](https://openlayers.org/en/latest/apidoc/module-ol_style_Style.html#~StyleFunction)) 
