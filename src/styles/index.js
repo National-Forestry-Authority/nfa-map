@@ -20,7 +20,11 @@ const colors = {
 
 // Returns an OpenLayers Style for a given color.
 const colorStyles = (color) => {
-  color = color.startsWith('#') || color.startsWith('rgb') ? color : colors[color] || colors.yellow;
+  if (!color) {
+    color = colors.yellow;
+  } else if (colors[color]) {
+    color = colors[color];
+  }
 
   const stroke = new Stroke({
     color: color,

@@ -277,12 +277,12 @@ const colors = {
 };
 ```
 
-Custom colors in hex or rgba can be used by providing a `color` option with the
-desired color value. rgb, rgba, and hex values with or without alpha channel are all supported.
+Custom colors can be used by providing a `color` option with the desired color value. A color string parser is included
+to handle hex, rgb and other formats.
+See [color-parse](https://github.com/colorjs/color-parse/tree/master#parsed-strings) for information about supported formats.
 
-For example:
 ```js
-// Add a GeoJSON layer with a custom  inside a layer group called "Assets"
+// Add a GeoJSON layer with a custom color inside a layer group called "Assets"
 const opts = {
   title: 'Animals',
   url: '/farm/assets/geojson/animal/full',
